@@ -1,0 +1,9 @@
+html pages:
+1. home/news
+2. about page/intro
+3. advocacy details? images, bulk ng content
+4. ??
+
+css:
+1 - fun
+2 - pro
