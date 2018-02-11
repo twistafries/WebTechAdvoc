@@ -1,0 +1,276 @@
+html, body {
+	margin: 0;
+	height: 100%;
+}
+
+nav {
+	position: fixed;
+    top: 0;
+    width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #D2B48C;
+	display: inline-block;
+    list-style-type: none;
+}
+nav a{
+	text-align: center;
+	display: inline-block;
+    list-style-type: none;
+}
+
+a {
+	float: center;
+	display: inline-block;
+    list-style-type: none;
+}
+
+a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	font-family: sans-serif;
+	font-size: 30px;
+	float: center;
+	display: inline-block;
+    list-style-type: none;
+}
+
+a:hover {
+	background-color: #ffffff;
+	color: #1a1a1a;
+}
+
+a:link {
+	text-decoration: none;
+	float: center;
+	display: inline-block;
+    list-style-type: none;
+}
+
+.quote, #act, .parallax3, .parallax4, .mainheading{
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.quote	 {
+	background-image: url("parallax1.jpg");
+	height: 100%;
+}
+
+#act{
+	margin: 0px;
+	padding: 400px;
+	font-family: impact;
+	color: #DEB887;
+	text-align: center;
+	font-size: 20px;
+}
+
+.parallax3 {
+	background-image: url("parallax3.jpg");
+	min-height: 700px;
+}
+
+.parallax4 {
+	background-image: url("parallax4.jpg");
+	min-height: 700px;
+}
+
+.mainheading {
+	background-image: url("mainbg.jpg");
+	min-height: 1000px;
+}
+
+h1 {
+	margin: 0px;
+	padding: 270px;
+	font-family: sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 100px;
+}
+
+h2 {
+	margin: 0px;
+
+	font-family: sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 70px;
+padding: 270px;
+
+
+}
+h3 {
+	margin: 0px;
+	padding-top: 100px;
+	font-family: sans-serif;
+	color: #DEB887;
+	text-align: center;
+	font-size: 40px;
+
+
+}
+
+h4 {
+	margin: 0px;
+	padding: 100px;
+	font-family: sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+
+}
+
+article{
+	margin: 50px;
+	padding: 100px;
+	font-family: impact;
+	color: #DEB887;
+	text-align: center;
+	font-size: 20px;
+
+}
+.list{
+	margin: 100px;
+	padding: 10px;
+	font-family: impact;
+	color: #DEB887;
+	text-align: left;
+	font-size: 20px;
+
+}
+#act {
+	background-image: url("parallax2.jpg");
+	min-height: 700px;
+}
+
+#introduction {
+	margin: 100px;
+	padding: 10px;
+	font-family: sans-serif;
+	color: #DEB887;
+	text-align: center;
+	font-size: 40px;
+}
+#adcon{
+	padding-bottom: 10px;
+}
+
+#advocacy{
+
+}
+
+#advocacy1{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 50%;
+	height: 100%;
+	background-image: url("ad1.jpg");
+	min-height: 499px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: sans-serif;
+	color: white;
+	text-align: justify;
+	font-size: 25px;
+}
+#advocacy2{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 50%;
+	height: 100%;
+	background-image: url("ad2.jpg");
+	min-height: 399px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: sans-serif;
+	color: white;
+	text-align: justify;
+	font-size: 25px;
+}
+
+#organization{
+	float: center;
+	margin-top: 200px;
+	padding: 200px;
+	font-family: sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
+
+.orglogo a {
+	float: left;
+	margin: -20px;
+	font-family: sans-serif;
+	color: black;
+	text-align: center;
+	font-size: 20px;
+	padding: 60px;
+}
+
+
+#introduction {
+	padding-top: 20px;
+	margin: 100px;
+	height: 100px;
+	color: #DEB887;
+	font-family: 'Lucida Bright';
+	font-size: 35px;
+}
+
+#image-container{
+	float: left;
+	margin-top: 
+	padding: 270px;
+	font-family: sans-serif;
+	color: black;
+	text-align: center;
+	font-size: 100px;
+	    width:980px;
+    float:left;
+}
+
+#content{
+	padding: 0%;
+	margin: 0%;
+	width: 100%;
+	height: 10%;
+	color: #DEB887;
+	font-family: 'Lucida Bright';
+	font-size: 18px;
+}
+
+img {
+    position: center;
+    float: left;
+    width:  200px;
+    height: 200px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:  cover;
+    vertical-align: ;
+}
+
+.footer {
+	background-color: #D2B48C;
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	height: 20%;
+	text-align: center;
+	margin: 0;
+	padding-top: 6px;
+	font-size: 23px;
+	color: white;
+}
+
