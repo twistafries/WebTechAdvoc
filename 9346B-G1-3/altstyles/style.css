@@ -1,8 +1,152 @@
 body{
-	background-image: url('images/scis.png');
-	}
+	background: url('../styles/images/mainbak.JPG') no-repeat center;
+}
 
 header{
-	border: 2px dashed #ffffff;
-	box-shadow: 0 0 0 8px #ff0030;
-	}
+	background: url('../styles/images/headbak.JPG') no-repeat center left;
+	color: black;
+	font-family: 'Papyrus';
+	text-transform: uppercase;
+	padding: 0 50px 0 0;
+	height: 34%;
+	box-shadow: 5px 10px #ff9a0c;
+}
+
+footer{
+	background: orange;
+	color: white;
+}
+
+.navigation{
+	padding-left: 15px;
+	float: right;
+}
+
+.navigation li{
+	display: inline-block;
+	font-size: 20px;
+	font-family: 'Papyrus';
+	margin-right: 40px;
+}
+
+@keyframes intro {
+	from {transform: rotateX(0deg);}
+	to {transform: rotateX(90deg);}
+}
+
+@keyframes image1{
+	from{transform: rotate(5deg);}
+	to {transform: rotate(-5deg);}
+}
+
+@keyframes image2{
+	from{transform: rotate(-5deg);}
+	to {transform: rotate(5deg);}
+}
+@keyframes about{
+	0% {color: black;}
+	25% {color: white;}
+	50% {font-size: 30px;}
+	75% {font-size: 35px;}
+	100% {font-size: 40px;}
+}
+
+@keyframes advoc1{
+	0% {color: rgba(255, 255, 255, 0);}
+	50% {color: rgba(122, 122, 122, 0.5);}
+	100% {color: rgba(0, 0, 0, 1);}
+}
+
+@keyframes advoc2{
+	0% {color: rgba(255, 255, 255, 0);}
+	55% {color: rgba(170, 170, 170, 0.3);}
+	66% {color: rgba(100, 100, 100, 0.6);}
+	100% {color: rgba(0, 0, 0, 1);}
+}
+
+#RT{
+	font-size: 20px;
+	color: white;
+	text-shadow: black;
+	font-family: 'Papyrus';
+	margin-left: 15%;
+	margin-top: 25%;
+	transform: rotateX(88deg);
+	animation-name: intro;
+	animation-duration: 4s;
+	animation-timing-function: ease-in;
+}
+
+#RT1{
+	animation-name: advoc1;
+	animation-duration: 3s;
+}
+
+#RT2{
+	animation-name: advoc2;
+	animation-duration: 6s;
+}
+
+#RT3{
+	color: white;
+	font-family: 'Times New Roman';
+	font-size: 18px;
+	box-shadow: 5px 10px rgba(247, 189, 136, 0.64)
+}
+
+#image1{
+	height: auto;
+	width: 25%;
+	padding: 5px 5px 25px 5px;
+	border: 1px solid white;
+	background-color: white;
+	transform: rotate(5deg);
+	animation-name: image1;
+	animation-duration: 1s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+#image1 img{
+	width: 100%;
+	height: auto;
+}
+
+#image2{
+	height: auto;
+	width: 25%;
+	padding: 5px 5px 25px 5px;
+	border: 1px solid white;
+	background-color: white;
+	transform: rotate(-5deg);
+	animation-name: image2;
+	animation-duration: 1s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+#image2 img{
+	width: 100%;
+	height: auto;
+}
+
+#Respect, #Accept{
+	background-color: rgba(200,200,200,0.4);
+}
+
+#Knowledge{
+	background-color: rgba(50, 50, 50, 0.4);
+}
+
+
+#about{
+	color: white;
+	font-size: 20px;
+	animation-name: about;
+	animation-duration: 5s;
+	animation-iteration-count: 2;
+	animation-direction: alternate;
+	animation-timing-function: ease-in;
+}
