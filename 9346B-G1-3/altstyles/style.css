@@ -1,0 +1,8 @@
+body{
+	background-image: url('images/scis.png');
+	}
+
+header{
+	border: 2px dashed #ffffff;
+	box-shadow: 0 0 0 8px #ff0030;
+	}
